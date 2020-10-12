@@ -248,8 +248,8 @@ def build_database():
 if __name__=='__main__':
    
     mode = 'cnn'
-    switch = {1:[True, False][1],
-              2:[True, False][1],
+    switch = {1:[True, False][0],
+              2:[True, False][0],
               3:[True, False][0],}
 
 
