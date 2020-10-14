@@ -34,7 +34,8 @@ import seaborn as sns
 # Image size
 #
 SIDE = 40
-# DIRECTORY FOR THE FILES!
+
+# Directories
 #
 # Please create the "nn-images" directory
 # and populate it with the base-images
@@ -52,7 +53,7 @@ SIDE = 40
 #             |__ whole-database.pkl ....| <--It's not necessary as it's ~3Gb  
 #                                             
 #
-MACRODIR = 'cipolina-results'
+MACRODIR = '' # keep this empty if you run at the same level as the nn-images directory!
 
 
 #**************
